@@ -16,6 +16,9 @@
     #include <assert.h>
 #endif /* def __ASSEMBLER__ */
 
+// Added by me
+#define CONFIG_FREERTOS_ENABLE_BACKWARD_COMPATIBILITY 1
+
 /* ----------------------------------------------------- Helpers -------------------------------------------------------
  * - Macros that the FreeRTOS configuration macros depend on
  * ------------------------------------------------------------------------------------------------------------------ */
