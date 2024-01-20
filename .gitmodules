@@ -147,3 +147,7 @@
 [submodule "components/bt/esp_ble_mesh/lib/lib"]
 	path = components/bt/esp_ble_mesh/lib/lib
 	url = ../../espressif/esp-ble-mesh-lib.git
+[submodule "components/lvgl"]
+	path = components/lvgl
+	url = https://github.com/lvgl/lvgl.git
+	branch = release/v8.3
